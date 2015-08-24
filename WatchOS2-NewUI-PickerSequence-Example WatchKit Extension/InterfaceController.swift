@@ -35,7 +35,7 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func selectedItem(value: Int) {
-        print("Sequence Picker: \(value) selected")
+        print("Sequence Picker: \(value) selected.")
     }
 
 }
