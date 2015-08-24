@@ -20,7 +20,7 @@ class InterfaceController: WKInterfaceController {
         
         // Configure interface objects here.
         setDataList()
-        // call to set datas with generator map.
+        // call to set datas with generator map..
         //setDataListByMap()
     }
     
