@@ -23,6 +23,12 @@ To run the example project, clone the repo.
 
 ### Extra Simple!
 
+Configure your Storyboard :
+  - Picker attributes inspector
+  - set 'Style' attribute to 'Sequence'
+  - connect your picker ‘pickerSequence‘ to your Interface Controller class
+  - put code on willActivate() method.
+  
 ```swift
 let pickerItems: [WKPickerItem] = (0...100).map {
     let pickerItem = WKPickerItem()
@@ -31,3 +37,8 @@ let pickerItems: [WKPickerItem] = (0...100).map {
 }
 self.pickerSequence.setItems(pickerItems)
 ```
+
+Build and Run!
+
+
+Sequence images made with [Radial Chart Image Generator for Apple Watch.](http://hmaidasani.github.io/RadialChartImageGenerator/)
