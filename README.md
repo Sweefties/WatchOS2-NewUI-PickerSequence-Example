@@ -26,8 +26,8 @@ To run the example project, clone the repo.
 Configure your Storyboard :
   - Picker attributes inspector
   - set 'Style' attribute to 'Sequence'
-  - connect your picker ‘pickerSequence‘ to your Interface Controller class
-  - put code on willActivate() method.
+  - connect your picker `pickerSequence` to your Interface Controller class
+  - put code on ``willActivate()`` method.
   
 ```swift
 let pickerItems: [WKPickerItem] = (0...100).map {
