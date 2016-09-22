@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/build-pass-brightgreen.svg?style=flat-square)
 ![](https://img.shields.io/badge/platform-WatchOS2-ff69b4.svg?style=flat-square)
-![](https://img.shields.io/badge/Require-XCode7-lightgrey.svg?style=flat-square)
+![](https://img.shields.io/badge/Require-XCode%208-lightgrey.svg?style=flat-square)
 
 
 # WatchOS2-NewUI-PickerSequence-Example
@@ -12,10 +12,14 @@ WatchOS 2 Experiments - New UI Components - Picker Sequence
 
 ## Requirements
 
-- >= XCode 7 beta 5~.
-- >= Swift 2.
+- >= XCode 8.0.
+- >= Swift 3.
 
 Tested on WatchOS2 Simulator.
+
+## Important
+
+this is the Xcode 8 / Swift 3 updated project.
 
 ## Usage
 
@@ -28,7 +32,7 @@ Configure your Storyboard :
   - set 'Style' attribute to 'Sequence'
   - connect your picker `pickerSequence` to your Interface Controller class
   - put code on ``willActivate()`` method.
-  
+
 ```swift
 let pickerItems: [WKPickerItem] = (0...100).map {
     let pickerItem = WKPickerItem()

@@ -15,8 +15,8 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var pickerSequence: WKInterfacePicker!
     var pickerItems: [WKPickerItem] = []
     
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
+    override func awake(withContext context: Any?) {
+        super.awake(withContext: context)
         
         // Configure interface objects here
         setDataList()
@@ -34,7 +34,7 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
-    @IBAction func selectedItem(value: Int) {
+    @IBAction func selectedItem(_ value: Int) {
         print("Sequence Picker: \(value) selected")
     }
 
